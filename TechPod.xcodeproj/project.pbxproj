@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F67F681828B6085A00DDAA41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F681728B6085A00DDAA41 /* AppDelegate.swift */; };
+		F67F681A28B6085A00DDAA41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F681928B6085A00DDAA41 /* SceneDelegate.swift */; };
+		F67F681C28B6085A00DDAA41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F681B28B6085A00DDAA41 /* ViewController.swift */; };
+		F67F681F28B6085A00DDAA41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67F681D28B6085A00DDAA41 /* Main.storyboard */; };
+		F67F682128B6085B00DDAA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67F682028B6085B00DDAA41 /* Assets.xcassets */; };
+		F67F682428B6085B00DDAA41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67F682228B6085B00DDAA41 /* LaunchScreen.storyboard */; };
+		F67F683428B6261000DDAA41 /* cannon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67F682D28B6261000DDAA41 /* cannon.mp3 */; };
+		F67F683528B6261000DDAA41 /* elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67F682E28B6261000DDAA41 /* elise.mp3 */; };
+		F67F683628B6261000DDAA41 /* aria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67F682F28B6261000DDAA41 /* aria.mp3 */; };
+		F67F683728B6261000DDAA41 /* Beethoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67F683128B6261000DDAA41 /* Beethoven.jpg */; };
+		F67F683828B6261000DDAA41 /* Pachelbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67F683228B6261000DDAA41 /* Pachelbel.jpg */; };
+		F67F683928B6261000DDAA41 /* Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F67F683328B6261000DDAA41 /* Bach.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F67F681428B6085A00DDAA41 /* TechPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67F681728B6085A00DDAA41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F67F681928B6085A00DDAA41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F67F681B28B6085A00DDAA41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F67F681E28B6085A00DDAA41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F67F682028B6085B00DDAA41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F67F682328B6085B00DDAA41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F67F682528B6085B00DDAA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67F682D28B6261000DDAA41 /* cannon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cannon.mp3; sourceTree = "<group>"; };
+		F67F682E28B6261000DDAA41 /* elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elise.mp3; sourceTree = "<group>"; };
+		F67F682F28B6261000DDAA41 /* aria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aria.mp3; sourceTree = "<group>"; };
+		F67F683128B6261000DDAA41 /* Beethoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beethoven.jpg; sourceTree = "<group>"; };
+		F67F683228B6261000DDAA41 /* Pachelbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pachelbel.jpg; sourceTree = "<group>"; };
+		F67F683328B6261000DDAA41 /* Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bach.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F67F681128B6085A00DDAA41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F67F680B28B6085A00DDAA41 = {
+			isa = PBXGroup;
+			children = (
+				F67F681628B6085A00DDAA41 /* TechPod */,
+				F67F681528B6085A00DDAA41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F67F681528B6085A00DDAA41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F67F681428B6085A00DDAA41 /* TechPod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F67F681628B6085A00DDAA41 /* TechPod */ = {
+			isa = PBXGroup;
+			children = (
+				F67F682B28B6261000DDAA41 /* Resources */,
+				F67F681728B6085A00DDAA41 /* AppDelegate.swift */,
+				F67F681928B6085A00DDAA41 /* SceneDelegate.swift */,
+				F67F681B28B6085A00DDAA41 /* ViewController.swift */,
+				F67F681D28B6085A00DDAA41 /* Main.storyboard */,
+				F67F682028B6085B00DDAA41 /* Assets.xcassets */,
+				F67F682228B6085B00DDAA41 /* LaunchScreen.storyboard */,
+				F67F682528B6085B00DDAA41 /* Info.plist */,
+			);
+			path = TechPod;
+			sourceTree = "<group>";
+		};
+		F67F682B28B6261000DDAA41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F67F682C28B6261000DDAA41 /* Songs */,
+				F67F683028B6261000DDAA41 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F67F682C28B6261000DDAA41 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				F67F682D28B6261000DDAA41 /* cannon.mp3 */,
+				F67F682E28B6261000DDAA41 /* elise.mp3 */,
+				F67F682F28B6261000DDAA41 /* aria.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		F67F683028B6261000DDAA41 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F67F683128B6261000DDAA41 /* Beethoven.jpg */,
+				F67F683228B6261000DDAA41 /* Pachelbel.jpg */,
+				F67F683328B6261000DDAA41 /* Bach.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F67F681328B6085A00DDAA41 /* TechPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F67F682828B6085B00DDAA41 /* Build configuration list for PBXNativeTarget "TechPod" */;
+			buildPhases = (
+				F67F681028B6085A00DDAA41 /* Sources */,
+				F67F681128B6085A00DDAA41 /* Frameworks */,
+				F67F681228B6085A00DDAA41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechPod;
+			productName = TechPod;
+			productReference = F67F681428B6085A00DDAA41 /* TechPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F67F680C28B6085A00DDAA41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F67F681328B6085A00DDAA41 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F67F680F28B6085A00DDAA41 /* Build configuration list for PBXProject "TechPod" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F67F680B28B6085A00DDAA41;
+			productRefGroup = F67F681528B6085A00DDAA41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F67F681328B6085A00DDAA41 /* TechPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F67F681228B6085A00DDAA41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67F682428B6085B00DDAA41 /* LaunchScreen.storyboard in Resources */,
+				F67F683428B6261000DDAA41 /* cannon.mp3 in Resources */,
+				F67F683928B6261000DDAA41 /* Bach.jpg in Resources */,
+				F67F683528B6261000DDAA41 /* elise.mp3 in Resources */,
+				F67F682128B6085B00DDAA41 /* Assets.xcassets in Resources */,
+				F67F683828B6261000DDAA41 /* Pachelbel.jpg in Resources */,
+				F67F681F28B6085A00DDAA41 /* Main.storyboard in Resources */,
+				F67F683628B6261000DDAA41 /* aria.mp3 in Resources */,
+				F67F683728B6261000DDAA41 /* Beethoven.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F67F681028B6085A00DDAA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67F681C28B6085A00DDAA41 /* ViewController.swift in Sources */,
+				F67F681828B6085A00DDAA41 /* AppDelegate.swift in Sources */,
+				F67F681A28B6085A00DDAA41 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F67F681D28B6085A00DDAA41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67F681E28B6085A00DDAA41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F67F682228B6085B00DDAA41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67F682328B6085B00DDAA41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F67F682628B6085B00DDAA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F67F682728B6085B00DDAA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F67F682928B6085B00DDAA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechPod/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nagasaki.chanpon.TechPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F67F682A28B6085B00DDAA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechPod/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nagasaki.chanpon.TechPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F67F680F28B6085A00DDAA41 /* Build configuration list for PBXProject "TechPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67F682628B6085B00DDAA41 /* Debug */,
+				F67F682728B6085B00DDAA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F67F682828B6085B00DDAA41 /* Build configuration list for PBXNativeTarget "TechPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67F682928B6085B00DDAA41 /* Debug */,
+				F67F682A28B6085B00DDAA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F67F680C28B6085A00DDAA41 /* Project object */;
+}
